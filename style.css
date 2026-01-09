@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     max-width: 1600px;
 }
 
-.inter-font{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
-div {
+.navigation {
 
     display: flex;
     justify-content: space-between;
@@ -53,64 +53,114 @@ button {
     border-radius: 4px;
 }
 
-.hero{background-image: url(./picx/hero-bg.png);
-width: 1600px;
-height: 674px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 32;
+.hero {
+    background-image: url(./picx/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
 }
-.badge{
+
+.badge {
     align-items: center;
 }
 
-.hero-content{
-width: 1360px;
-height: 295px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
-gap: 16;
+.hero-content {
+    width: 1360px;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16;
 }
-.head{
+
+.head {
     font-size: 51px;
     color: #FFFF;
 }
-.early
-{
+
+.early {
     margin-top: 250px;
-    padding:8px 12px;
+    padding: 8px 12px;
     gap: 6px;
     border-radius: 50px;
     border: none;
     color: #30B868;
 }
-.hero h1{font-size: 72px;
-color: #FFFF;}
-.hero span{
+
+.hero h1 {
+    font-size: 72px;
+    color: #FFFF;
+}
+
+.hero span {
     color: #30B868;
 }
-.hero p{
+
+.hero p {
     font-size: 18px;
     color: #FFFF;
     align-items: center;
 }
-.hero-btns button{
+
+.hero-btns button {
     padding: 12px 20px;
     margin: 5px;
     border-radius: 4px;
     border-color: #FFFF;
     gap: 16px;
 }
-.primary{
+
+.primary {
     background-color: #30B868;
     color: #FFFF;
     border: none;
 }
-.outline{
-  background-color: transparent;
-  color: #FFFF;
+
+.outline {
+    background-color: transparent;
+    color: #FFFF;
+}
+
+.heading {
+    padding-top: 30px;
+    width: 1360px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.heading h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.heading p {
+    font: size 16px;
+    color: #627382;
+}
+
+.card-parent {
+    justify-content: center;
+    width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    padding-top: 80px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 4px 2px;
+}
+
+.card img {
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50px;
+
 }
