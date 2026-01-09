@@ -243,3 +243,34 @@ font-weight: 600;
     padding-bottom: 16px;
     color: #627382;}
 
+footer{
+    width: 1600px;
+    height: 348px;
+    background-color: #001931;
+}
+footer .end{padding: 120px 120px 80px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.end img{
+    width: 139px;
+}
+footer h2{
+    color:#FFFF;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.fot-logo i{
+    background-color: #FFFF;
+    border-radius: 20px;
+    padding: 8px;
+    justify-content: space-between;
+
+}
+footer .copy{
+    text-align: center;
+    font-size: 16px;
+    color: #F7F6F2;
+}
