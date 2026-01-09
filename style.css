@@ -26,15 +26,19 @@
     gap: 31px;
     text-decoration: none;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .top a {
     text-decoration: none;
     color: #000000;
+
 }
 
 .one {
     background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
     padding: 12px 16px;
     border: none;
     text-decoration: none;
@@ -90,6 +94,8 @@ button {
     border-radius: 50px;
     border: none;
     color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .hero h1 {
@@ -102,6 +108,7 @@ button {
 }
 
 .hero p {
+    padding: 20px;
     font-size: 18px;
     color: #FFFF;
     align-items: center;
@@ -113,6 +120,8 @@ button {
     border-radius: 4px;
     border-color: #FFFF;
     gap: 16px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .primary {
@@ -210,66 +219,85 @@ button {
     list-style-type: none;
 
 }
-.icon img{padding-top: 10px;}
-.clearly{
+
+.icon img {
+    padding-top: 10px;
+}
+.clearly {
     height: 386px;
     width: 1360px;
     background-color: #F7F6F2;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     text-align: center;
 }
-.clearly h2{
-padding-top: 80px;
-font-size: 40px;
-font-weight: 700;
+
+.clearly h2 {
+    padding-top: 80px;
+    font-size: 40px;
+    font-weight: 700;
 }
-.clearly p{
+
+.clearly p {
     padding-top: 16px;
     padding-bottom: 16px;
     color: #627382;
-    }
-.get-btn{
-padding: 16px;
-border: none;
-background-color: #30B868;
-font-size: 16px;
-font-weight: 600;
 }
-.get-btn a{
+
+.get-btn {
+    padding: 16px;
+    border: none;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.get-btn a {
     color: #F7F6F2;
     text-decoration: none;
 }
-.clearly h3{ padding-top: 24px;
-    padding-bottom: 16px;
-    color: #627382;}
 
-footer{
+.clearly h3 {
+    padding-top: 24px;
+    padding-bottom: 16px;
+    color: #627382;
+}
+
+.ready {
+    border-bottom: 100px;
+}
+
+footer {
     width: 1600px;
     height: 348px;
     background-color: #001931;
 }
-footer .end{padding: 120px 120px 80px 120px;
+
+footer .end {
+    padding: 120px 120px 80px 120px;
     display: flex;
     justify-content: space-between;
 }
-.end img{
+
+.end img {
     width: 139px;
 }
-footer h2{
-    color:#FFFF;
+
+footer h2 {
+    color: #FFFF;
     font-size: 20px;
     font-weight: 500;
-    
+
 }
 
-.fot-logo i{
+.fot-logo i {
     background-color: #FFFF;
     border-radius: 20px;
     padding: 8px;
     justify-content: space-between;
 
 }
-footer .copy{
+
+footer .copy {
     text-align: center;
     font-size: 16px;
     color: #F7F6F2;
