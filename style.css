@@ -1,7 +1,13 @@
-.inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+}
 
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
 }
 
 div {
@@ -24,6 +30,7 @@ div {
 
 .top a {
     text-decoration: none;
+    color: #000000;
 }
 
 .one {
@@ -31,7 +38,7 @@ div {
     padding: 12px 16px;
     border: none;
     text-decoration: none;
-   
+
 }
 
 .one a {
@@ -41,6 +48,69 @@ div {
 
 
 }
-button{
+
+button {
     border-radius: 4px;
+}
+
+.hero{background-image: url(./picx/hero-bg.png);
+width: 1600px;
+height: 674px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 32;
+}
+.badge{
+    align-items: center;
+}
+
+.hero-content{
+width: 1360px;
+height: 295px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 16;
+}
+.head{
+    font-size: 51px;
+    color: #FFFF;
+}
+.early
+{
+    margin-top: 250px;
+    padding:8px 12px;
+    gap: 6px;
+    border-radius: 50px;
+    border: none;
+    color: #30B868;
+}
+.hero h1{font-size: 72px;
+color: #FFFF;}
+.hero span{
+    color: #30B868;
+}
+.hero p{
+    font-size: 18px;
+    color: #FFFF;
+    align-items: center;
+}
+.hero-btns button{
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    border-color: #FFFF;
+    gap: 16px;
+}
+.primary{
+    background-color: #30B868;
+    color: #FFFF;
+    border: none;
+}
+.outline{
+  background-color: transparent;
+  color: #FFFF;
 }
